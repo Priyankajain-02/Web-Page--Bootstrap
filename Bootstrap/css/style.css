@@ -1,0 +1,585 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,300;1,500;1,800&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 16px;
+}
+*{box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    float: left;
+}
+.top-bar {
+    width: 100%;
+    float: left;
+    background-color: #f54337;
+   
+}
+.right {
+    width: 50%;
+    float: left;
+    display: inline;
+    margin-top: 20px;
+    padding: 10px 5px;
+}
+.right h3 {
+font-size: 16px;
+color: white;
+font-weight: 400;
+display: inline;
+padding: 10px 30px;
+}
+
+.right p{
+    font-size: 16px;
+    color: white;
+    display: inline;
+    font-weight: 400;
+    }
+.left {
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+    display: inline;
+    padding: 10px 5px;
+}
+.left h3{
+    font-size: 16px;
+    color: white;
+    display: inline;
+    font-weight: 400;
+}
+   
+.left i {
+    font-size: 16px;
+    color: white;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+.left p {
+    font-size: 16px;
+    color: white;
+    display: inline;
+    font-weight: 400;
+    
+}
+.navigation {
+    width: 100%;
+    float: left;
+    background-color: #2525250d;
+    margin-bottom: 35px;
+    
+}
+.logo {
+    width: 25%;
+    float: left;
+   
+    font-size: 45px;
+    font-weight: bold;
+    margin: 22px 5px 10px 15px;
+    
+}
+.logo p span {
+    color: #ca2128;
+    
+}
+.navbar {
+    width: 73%;
+    float: left;
+    color: black;
+    text-transform: uppercase;
+   
+   }
+.navbar ul {
+       text-decoration: none;
+       margin: 18px 15px 10px 35px;
+    
+}
+.navbar ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.slider img{
+    width: 100%;
+    
+}
+.slider h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    text-transform: capitalize;
+    overflow: hidden;
+    bottom: 20px;
+    
+    line-height: 23px;
+    
+    padding: 0px 20px;
+}
+.slider {
+    margin-bottom: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.slider p {
+    padding: 5px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    width: 40px;
+    height: 22px;
+   top: 10px;
+   right: 10px;
+   text-align: center;
+    bottom: 10px;
+}
+.trending-angle {
+    width: 100%;
+    float: left;
+}
+.trending {
+    margin-bottom: 15px;
+    float: left;
+    width: 80%;
+    margin-top: 45px;
+    
+    
+}
+.trending i {
+    color: #fff;
+    padding: 9px 12px;
+    background-color: #f44336;
+    display: inline-block;
+    margin-right: 8px;
+}
+.trending h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: capitalize;
+    margin: 0px;
+    display: inline-block;
+}
+
+.trending-images{
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+}
+.item p{
+    padding: 5px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    width: 40px;
+    height: 22px;
+      right: 10px;
+       bottom: -5px;
+}
+.trending-images h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: capitalize;
+    margin-top: 8px;
+    line-height: 22px;
+    cursor: pointer;
+}
+.trending-images h2:hover {
+    color:  #f44336;
+}
+.trending-images i {
+  top: 70px;
+    position: absolute;
+    color: white;
+    right: 120px;
+   cursor: pointer;
+    font-size: 32px;
+}
+.trending-images i:hover {
+color: #f44336;
+}
+.item{
+    position: relative;
+}
+
+.slider:hover {
+    opacity: 0.9;
+    transition: 5sec;
+}
+.appetizers {
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 15px;
+
+}
+.appetizers h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: capitalize;
+    margin: 0px;
+    display: inline-block;
+}
+.appetizers i{
+    color: #fff;
+    padding: 9px 12px;
+    background-color: #f44336;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.details {
+    width: 100%;
+    float: left;
+}
+.views {
+    width: 50%;
+    float: left;
+    font-size: smaller;
+    
+}
+.views i{
+    color: #418fd1;
+    font-size: smaller;
+    margin-right: 13px;
+}
+
+
+.likes {
+    width: 50%;
+    float: left;
+    font-size: smaller;
+   
+}
+.likes i {
+    color: #359261;
+    font-size: smaller;
+    
+    
+    margin: 0px 11px;
+
+}
+  .likes .fa-thumbs-down {
+    color: #ff0000;
+}
+.animal {
+
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+.animal h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: capitalize;
+    margin: 0px;
+    display: inline-block;
+}
+.animal i{
+    color: #fff;
+    padding: 9px 12px;
+    background-color: #f44336;
+    display: inline-block;
+    margin-right: 8px; 
+}
+
+.plannet img {
+    width: 100%;
+    }
+.plannet p{
+    padding: 5px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    width: 40px;
+    height: 22px;
+    right: 10px;
+    bottom: -4px;
+}
+.plannet i{
+    top: 50%;
+    position: absolute;
+    color: white;
+    right: 0;
+    cursor: pointer;
+    font-size: 32px;
+    text-align: center;
+    left: 0;
+}
+.plannet i:hover{
+    color: #f44336;
+}
+.plannet {
+    position: relative;
+}
+.animal-plannet {
+    margin-bottom: 22px;
+}
+.information h4 {
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 1.2;
+
+}
+.information h4:hover {
+    color: #f44336;
+}
+.video-details {
+    width: 100%;
+    float: left;
+    margin: 8px 0px;
+}
+.viewers {
+      width: 18%;
+        float: left;
+        font-size: small;
+}
+.viewers i {
+    color: #418fd1;
+    font-size: small;
+    margin-right: 13px;
+    }
+.feedback {
+    width: 78%;
+    float: left;
+    font-size: small;
+
+}
+.feedback i {
+    font-size: small;
+    color: #359261;
+    margin: 0px 13px;
+
+}
+.feedback .fa-thumbs-down {
+    color: #ff0000;
+}
+.information p{
+    color: #000;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.information h5 {
+    color: #f44336;
+    font-size: 14px;
+    cursor: pointer;
+}
+.information h5:hover {
+    color: black;
+}
+
+  
+.james img {
+    width: 100%;
+}
+
+
+
+.contributor-content {
+    float: left;
+}
+.contributor-content h4{
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.contributor-content h4:hover {
+    color: #0d6efd;
+}
+.contributor-content p{
+    font-size: 13px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.contributor-detail {
+    padding: 18px 0px;
+    border-bottom: lightgrey 1px solid;
+    
+}
+.subscribe button{
+    display: inline-block;
+    background-color: #f44336;
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 12px;
+    position: absolute;
+    right: 0;
+   
+}
+.subscribe {
+    position: relative;
+}
+.subscribe .form-control{
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 0px;
+    overflow: hidden;
+    height: 40px;
+    width: 100%;
+}
+.subscribe .form-control input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #b7b7b7;
+    padding-left: 10px;
+}
+.purchase-area{
+    padding: 40px 0px;
+    background-color: #f44336;
+    margin-top: 55px;
+}
+.text h2 {
+
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    
+    
+}
+.text p{
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+    margin: 0px;
+
+
+    
+    
+}
+.text button{
+    border: none;
+    padding: 12px 20px;
+    color: #f44336;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: #fff;
+    margin-top: 10px;
+    float: right;
+    cursor: pointer;
+   
+}
+.text button:hover {
+    background-color: #0d6efd;
+    color: #fff;
+}
+.about-us {
+    background-color: #fff;
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+.about-heading {
+    margin-bottom: 10px;
+}
+.about-heading h3{
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 700;
+}
+.about-heading i{
+    padding: 10px 10px;
+    color: white;
+    background-color: #f44336;
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+    
+}
+.about-area p {
+    line-height: 24px;
+    font-size: 14px;
+    color: #252525;
+
+}
+.about-icons {
+    margin-top: 20px;
+}
+.about-icons a{
+    color: white;
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    background-color: #cfcbcb;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+.about-icons .twitter-icon:hover {
+    background-color: #0d6efd;
+}
+.about-icons .facebook-icon:hover {
+    background-color: #0e418d;
+}
+.about-icons .youtube-icon:hover
+ {background-color: #dd4b39;
+}
+.important-link ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.important-link ul li {
+    line-height: 1.2;
+    text-decoration: none;
+    padding: 5px 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.important-link ul li:hover {
+    color: #ca2128;
+}
+.privacy ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+.privacy ul li{
+    text-align: center;
+    display: inline-block;
+    line-height: 1.2;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-right: 1px solid grey;
+}
+.privacy ul li:hover {
+    color: #ca2128;
+}
+.privacy p{
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    
+}
+.privacy p span {
+    color: #2a6f9f;
+    cursor: pointer;
+}
